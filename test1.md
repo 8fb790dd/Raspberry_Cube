@@ -3,26 +3,27 @@
 #### reference: f8ff9a73f449049f0244390ff263996b0694c69f  Screencast_27.10.2019_23:21:28.mp4
 3D printable Case for Raspberry Pi 3B+ **Cluster** 
 
-1 test scenario
-  - 2 raspberry Pi 3B+ running in cube, headless named RC1 & RC2
-  - power supply by 4 port 16 Watt device [5.1V with max sum current 3.1A] 
-  - 30mm fan running
+1. test **scenario**
+  - 2 raspberry Pi 3B+ running in cube, headless named **RC1** & **RC2**
+  - powered by 4 port 16 Watt USB power supply device (5.1V with max sum current 3.1A) 
+  - 30mm fan running with 5V
   - environment temperature ca. 20 GradC
   - remote login to both Pi's via ssh and tmux
-  - 2 nearly identical screens with online temp logging
+  - 2 nearly identical screens with panes for 
+      online temp logging, voltages, top, start of load, ...
 
-2 test procedure
+2. test procedure
   - start of sysbench on each pi's nearly simultan
-  - run time of sysbench 10 minutes
-  - switch between screens to control voltage, temp and freq.
+  - run time of sysbench for 10 minutes (600 secs)
+  - switching between screens to control voltage, temp and freq.
 
-3 results
-  - after idle running the temperature started at ca. **26.8 Grad C** on each Pi
+3. main results
+  - after idle running for some minutes, the temperature started at ca. **26.8 Grad C** on each Pi
   - start full load with sysbench for 10 minutes
   - max temperature reached below **43 Grad C** on each Pi
   - no throttling of cpu/gpu freq seen...
 
-  - rough progress of RC2, [RC1 quiete similar] 
+4. rough progress of RC2, (RC1 quiete similar)
   - 30 Grad C	4 sec
   - 32 Grad C	6 sec
   - 34 Grad C	13 sec
