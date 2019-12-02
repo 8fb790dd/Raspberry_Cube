@@ -33,6 +33,9 @@
   - 41 Grad C	146 sec	2:26 min
   - 42 Grad C	304 sec	4:24 min
 
+## used screen logging
+<img heigth="600" src="../master/pics/RC2_Running_100sec_Screenshot from Screencast_27.10.2019_23:21:28.mp4.png" alt="cube_fl"/>
+
 ## used "Cube" case
 <img heigth="600" src="../master/pics/FrontLeftView.jpg" alt="cube_fl"/>
 <img heigth="600" src="../master/pics/SideRightView.jpg" alt="cube_sr"/>
