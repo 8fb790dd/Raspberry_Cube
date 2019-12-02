@@ -12,7 +12,7 @@
   - 2 nearly identical screens with panes for 
       online temp logging, voltages, top, start of load, ...
 
-2. test procedure
+2. test procedureadded pics of 3d printed cases with 2 stacked Raspberries 3B+
   - start of sysbench on each pi's nearly simultan
   - run time of sysbench for 10 minutes (600 secs)
   - switching between screens to control voltage, temp and freq.
@@ -20,8 +20,8 @@
 3. main results
   - after idle running for some minutes, the temperature started at ca. **26.8 Grad C** on each Pi
   - start full load with sysbench for 10 minutes
-  - max temperature reached below **43 Grad C** on each Pi
-  - no throttling of cpu/gpu freq seen...
+  - **max temperature** reached stayed below **43 Grad C** on each Pi
+  - **no throttling** of cpu/gpu freq seen...
 
 4. rough progress of RC2, (RC1 quiete similar)
   - 30 Grad C	4 sec
