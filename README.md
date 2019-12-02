@@ -12,7 +12,7 @@
 - [ ] adapter for one 30mm fan for 2 stacked Cubes (4 Pi's)
 
 ### [ ] test effectiveness of design
-  - [x] test one Cube with 30mm fan, running 2 Pi 3B+; see [test dscription](test1.md) and results.
+  - [x] test one Cube with 30mm fan, running 2 Pi 3B+; see [test description](test1.md) and results.
   - [ ] test one Cube with 60mm fan, running 2 Pi 3B+
   - [ ] test two stacked Cubes with 60mm fan, running 4 Pi's 3B+
 
